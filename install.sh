@@ -32,6 +32,7 @@ echo "✓ Aliases added to $SHELL_RC"
 
 echo ""
 echo "✅ Done! Open a new terminal or run:"
-echo "   source $SHELL_RC"
+echo "   zsh:  source ~/.zshrc"
+echo "   bash: source ~/.bash_profile"
 echo ""
 echo "   cco → Opus   |   ccs → Sonnet   |   cch → Haiku"
