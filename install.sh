@@ -30,10 +30,8 @@ fi
 echo "$ALIASES" >> "$SHELL_RC"
 echo "✓ Aliases added to $SHELL_RC"
 
-# Source
-# shellcheck disable=SC1090
-source "$SHELL_RC" 2>/dev/null || true
-echo "✓ $SHELL_RC sourced"
-
 echo ""
-echo "✅ Done! cco / ccs / cch are ready."
+echo "✅ Done! Open a new terminal or run:"
+echo "   source $SHELL_RC"
+echo ""
+echo "   cco → Opus   |   ccs → Sonnet   |   cch → Haiku"
